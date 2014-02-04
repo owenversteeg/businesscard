@@ -12,13 +12,16 @@ body {
 
 .flipbutton {
 	float: right;
-	margin: -19px auto;
 	box-shadow: none;
 	border-radius: 7px;
 	background: #fff;
 	color: #000;
 	border: 2px solid;
 	transition: .2s all;
+}
+
+#front .flipbutton {
+	margin: -19px auto;
 }
 
 .flipbutton:hover {
