@@ -39,7 +39,7 @@ a {
 
 #back {
 	overflow: hidden;
-	height: 0px;
+	transition: .2s all;
 }
 
 #front {
